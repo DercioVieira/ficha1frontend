@@ -1,0 +1,51 @@
+
+
+#exercicio1{
+border: 2px solid black;
+background-color: #f0f0f0; 
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+#par{border: 2px solid black;
+
+
+   }
+#exercicio2{
+    height: 5%;
+    border: 2px solid black;
+    background-color: blueviolet;
+}
+#exercicio4{
+    height: 5%;
+    border: 2px solid black;
+    background-color: rgb(162, 140, 184);
+}
+#exercicio5{
+    height: 5%;
+    border: 2px solid black;
+    background-color: rgb(162, 140, 184);
+}
+#exercicio6{
+    height: 5%;
+    border: 2px solid black;
+    background-color: rgb(162, 140, 184);
+}
+#exercicio7{
+    height: 5%;
+    border: 2px solid black;
+    background-color: rgb(162, 140, 184);
+    width: 100px;
+    height: 100px;
+}
+#exercicio7-1{
+    height: 5%;
+    border: 2px solid black;
+    background-color: rgb(162, 140, 184);
+    
+}
+
+
+.destacado {
+    background-color: yellow;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ficha-1 Frontend</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="exercicio1">
+    <p id="par">Texto inicial do parágrafo.</p>
+    
+    <button id="botao"> Alterar o texto</button>
+    </div>
+    <div class="exercicio3" id="exercicio2">
+        <ul id="minhaLista">
+            <li>Item 1 <input type="button" value="Remover" onclick="removerItem(this)"></li>
+            <li>Item 2 <input type="button" value="Remover" onclick="removerItem(this)"></li>
+        </ul>
+        <input type="text" id="novoItem">
+        <button onclick="adicionarItem()">Adicionar</button>
+    </div>
+    
+    <button id="botaoColor"> Alterar Color</button>
+    <div id="exercicio4">
+        <input type="text" id="meuInput">
+        <button id="meuBotao">Exibir Valor</button>
+        <p id="meuParagrafo"></p>
+    </div>
+    <div id="exercicio5">
+        <p>Contador: <span id="contador">0</span></p>
+        <input type="number" id="incremento" placeholder="Valor a incrementar">
+        <button onclick="incrementarContador()">Incrementar</button>
+    </div>
+    <div id="exercicio6">
+        <p id="mParagrafo">Este é um parágrafo que pode ser mostrado ou ocultado.</p>
+        <button id="meuBotao" onclick="alternarVisibilidade()">Mostrar/Ocultar</button>
+    </div>
+    <div id="exercicio7-1">
+        <img id="exercicio7" src="imagem/imagem_inicial.jpg" alt="Imagem Inicial">
+        <button id="botao1">Alterar Imagem</button>
+    </div>
+    
+        <div id="exercicio8" class="destacado">
+            Este é um div com uma classe inicial.
+
+        </div>
+        <button id="botao2" onclick="alternarClasse()">Alternar Classe</button>
+    
+     <script src="js/script.js"></script>
+</body>
+</html>
